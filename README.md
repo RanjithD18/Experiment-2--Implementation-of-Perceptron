@@ -3,7 +3,7 @@
 To implement a perceptron for classification using Python
 
 ## EQUIPMENTS REQUIRED:
-Hardware – PCs
+Hardware – PCs<br>
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
 ## RELATED THEORETICAL CONCEPT:
@@ -23,21 +23,21 @@ Indeed if the neuron output is exactly zero it cannot be assumed that the sample
 
 
 ## ALGORITHM:
-Importing the libraries
-Importing the dataset
-Plot the data to verify the linear separable dataset and consider only two classes
-Convert the data set to scale the data to uniform range by using Feature scaling
+Importing the libraries<br>
+Importing the dataset<br>
+Plot the data to verify the linear separable dataset and consider only two classes<br>
+Convert the data set to scale the data to uniform range by using Feature scaling<br>
 
-Split the dataset for training and testing
-Define the input vector ‘X’ from the training dataset
-Define the desired output vector ‘Y’ scaled to +1 or -1 for two classes C1 and C2
-Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’
-Assign the learning rate
-For ‘N ‘ iterations ,do the following:
-        v(i) = w(i)*x(i)
+Split the dataset for training and testing<br>
+Define the input vector ‘X’ from the training dataset<br>
+Define the desired output vector ‘Y’ scaled to +1 or -1 for two classes C1 and C2<br>
+Assign Initial Weight vector ‘W’ as 0 as the dimension of ‘X’<br>
+Assign the learning rate<br>
+For ‘N ‘ iterations ,do the following:<br>
+        v(i) = w(i)*x(i)<br>
          
-        W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)
-Plot the error for each iteration 
+        W (i+i)= W(i) + learning_rate*(y(i)-t(i))*x(i)<br>
+Plot the error for each iteration <br>
 Print the accuracy
 
 ## PROGRAM:
@@ -113,3 +113,7 @@ plt.ylabel('Errors')
 plt.show()
 ~~~
 ## OUTPUT:
+![](https://github.com/RanjithD18/Experiment-2--Implementation-of-Perceptron/blob/main/download.png)<br>
+![](https://github.com/RanjithD18/Experiment-2--Implementation-of-Perceptron/blob/main/download1.png)
+## RESULT:
+Thus,a perceptron for classification using Python is executed successfully
